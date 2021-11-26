@@ -141,7 +141,7 @@ func (c *Client) OrderByID(ctx context.Context, uid string) (types.Order, error)
 	return res, nil
 }
 
-type OrdersParams struct {
+type OrdersParameters struct {
 	Owner                      string
 	SellToken                  string
 	BuyToken                   string
